@@ -16,7 +16,9 @@ body {
 /***** text styles
 *******************************************/
 
-
+.old {
+	color: #b0b0b0;
+}
 
 html {
 	padding: 0;
@@ -143,6 +145,35 @@ h4 {
 	letter-spacing: 0.02em;
 	padding: 0.3em 0 0.3em 0.1em;
 }
+
+.member-table td {
+	padding: 0 1em;
+}
+
+.member-table tr.school td:first-child {
+	padding-left: 0;
+	font-weight: bold;
+}
+
+.member-table tr:not(.school) td:last-child {
+	text-align: right;
+}
+
+.resume table th {
+	text-align: center;
+}
+
+.resume table td, .resume table th {
+	padding: 0.2em 0.5em;
+
+	border: solid black 1px;
+}
+
+.resume table {
+	border: solid 2px black;
+	border-collapse: collapse;
+}
+
 
 
 #footer {
